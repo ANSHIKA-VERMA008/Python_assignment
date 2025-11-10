@@ -1,7 +1,7 @@
 import mysql.connector
 
 
-mydb = mysql.connector.connect(host='localhost', user='root', password='a8n1s1h4$')
+mydb = mysql.connector.connect(host='localhost', user='root', password='ansh_123')
 mycursor = mydb.cursor()
 
 # Create database 
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS ATM_records (
 mycursor.execute(table)
 
 
-conn = mysql.connector.connect(host='localhost', user='root', password='a8n1s1h4$', database='atm_machine')
+conn = mysql.connector.connect(host='localhost', user='root', password='ansh_123', database='atm_machine')
 cursor = conn.cursor()
 
 # Display the ATM menu
@@ -194,3 +194,4 @@ elif choice == 3:
     print("Exiting.")  
     print("Please close this file before exiting.")  
     cursor.close()  
+
